@@ -1,0 +1,42 @@
+.art-text{
+    color: white;
+    margin: auto;
+    width: 50%;
+    line-height: 25px;
+}
+
+.art-link{
+    color: white;
+    margin: auto;
+    width: 50%;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.art-link:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.gallery {
+    padding: 40px;
+}
+
+.gallery .artImg img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.gallery .artImg img:hover {
+    transform: scale(1.05);
+}
+
+.gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
