@@ -1,0 +1,14 @@
+.main-logo{
+    text-align: start;
+    padding: 20px;
+}
+
+.intro{
+    text-align: center;
+}
+
+.logos{
+    height: 20vh;
+    padding: 15vh;
+    filter: invert(1);
+}
