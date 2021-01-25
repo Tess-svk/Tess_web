@@ -5,14 +5,15 @@ import ParticlesBk from "./ParticlesBk";
 import baguetteBox from 'baguettebox.js/dist/baguetteBox.js';
 import "baguettebox.js/dist/baguetteBox.min.css";
 
-import logo from "../logo.svg";
-import angel from "../angel.jpg";
-import dragon from "../dragon.jpg";
-import girl from "../girl.jpg";
-import horse from "../horse.jpg";
-import fox from "../lostL_fox.jpg";
-import ghost from "../lostL_ghost.jpg";
-import woman from "../woman.jpg";
+import logo from "../images/logo.svg";
+import angel from "../images/angel.jpg";
+import dragon from "../images/dragon.jpg";
+import girl from "../images/girl.jpg";
+import horse from "../images/horse.jpg";
+import fox from "../images/lostL_fox.jpg";
+import ghost from "../images/lostL_ghost.jpg";
+import woman from "../images/woman.jpg";
+import Footer from "./Footer";
 
 class Art extends React.Component {
     render() {
@@ -47,17 +48,15 @@ class Art extends React.Component {
                 </div>
                 <div className="art-text">
                     <p>More pictures available on my ArtStation profile.</p>
-                    <p>You can visit my profile <a  className="art-link" href="https://www.artstation.com/littlecrazytess">here.</a></p>
+                    <p>You can visit my profile <a  className="art-link" href="https://www.artstation.com/littlecrazytess" target="_blank">here.</a></p>
                 </div>
+                <Footer/>
             </div>
-
         );
     }
 
     componentDidMount() {
-        console.log("hello");
         baguetteBox.run('.gallery');
-        console.log(baguetteBox);
     }
 
 }

@@ -2,7 +2,8 @@ import React from 'react';
 import "./It.css";
 import {Link} from "react-router-dom";
 import ParticlesBk from "./ParticlesBk";
-import logo from "../logo.svg";
+import logo from "../images/logo.svg";
+import Footer from "./Footer";
 
 class It extends React.Component {
     render() {
@@ -76,6 +77,7 @@ class It extends React.Component {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         );
     }

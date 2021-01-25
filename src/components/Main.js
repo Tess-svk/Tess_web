@@ -3,10 +3,11 @@ import "./Main.css";
 
 import {Link} from "react-router-dom";
 import ParticlesBk from "./ParticlesBk";
+import Footer from "./Footer";
 
-import art_logo from "../art.svg";
-import it_logo from '../it.svg';
-import logo from "../logo.svg";
+import art_logo from "../images/art.svg";
+import it_logo from '../images/it.svg';
+import logo from "../images/logo.svg";
 
 class Main extends React.Component {
     render() {
@@ -20,6 +21,7 @@ class Main extends React.Component {
                     <Link to="/It"><img src={it_logo} className="logos" alt="It logo"/></Link>
                     <Link to="/Art"><img src={art_logo} className="logos" alt="Art logo"/></Link>
                 </div>
+                <Footer/>
             </div>
         );
     }
